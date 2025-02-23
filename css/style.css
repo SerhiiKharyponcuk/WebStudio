@@ -1,5 +1,15 @@
 
-        ul {
-            color: rgb(2, 1, 1);
-            background-color: rgb(237, 235, 241);
-        }
+        :root {
+            --main_color: #2196F3; 
+            --dark_color: #212121;
+            --light_color: #FFFFFF;
+            --second_light_color: #757575;
+            --second_dark_color: #000000;
+            --first_light_color: #ECECEC;
+        } 
+
+     span {
+        color: var(--main_color);
+     }   
+
+     
