@@ -6,10 +6,51 @@
             --second_light_color: #757575;
             --second_dark_color: #000000;
             --first_light_color: #ECECEC;
+            --shadow_dark_color: #2F303A;
+            --shadw_light_color: #F5F4FA;
         } 
+        .logo-header{
+            color: var(--second_dark_color);
+        }
+        .logo-header span {
+            color: var(--main_color);
+        }
 
-     span {
+        .logo-footer {
+            color: var(--light_color);
+        }
+
+
+     .logo-footer span {
         color: var(--main_color);
      }   
 
-     
+     ul li:first-child a {
+        color: var(--main_color);
+     }
+     ul li a {
+        color: var(--dark_color);
+     }
+     button {
+        background-color: var(--main_color);
+        color: var(--light_color);
+     }
+     h1{
+        color: var(--light_color);
+     }
+     main section:first-of-type {
+        background-color: var(--shadow_dark_color);
+     }
+     footer section:last-of-type {
+        background-color: var(--shadow_dark_color);
+     }
+     footer  p {
+        color: var(--light_color);
+
+     }
+     footer a {
+        color: var(--light_color);
+     }
+     footer li a {
+        color: var(--light_color);
+     }
