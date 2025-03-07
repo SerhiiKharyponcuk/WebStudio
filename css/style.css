@@ -7,7 +7,9 @@
             --second_dark_color: #000000;
             --first_light_color: #ECECEC;
             --shadow_dark_color: #2F303A;
-            --shadw_light_color: #F5F4FA;
+            --shadw_light_color: #F5F4FA;  
+            --font-family: "Roboto", sans-serif;
+            --second-family: "Raleway", sans-serif; 
         } 
         .logo-header{
             color: var(--second_dark_color);
