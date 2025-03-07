@@ -23,7 +23,28 @@
 
      .logo-footer span {
         color: var(--main_color);
-     }   
+     } 
+
+     .logo-footer:hover {
+      color: red;
+      background-color: yellow;
+  }
+  .logo-header:hover {
+   color: red;
+   background-color: yellow;
+}
+
+.logo-footer:focus {
+   color: tomato;
+   background-color: royalblue;
+} 
+
+.logo-header:focus {
+   color: rgb(79, 34, 193);
+   background-color: rgb(20, 234, 123);
+}
+  
+       
 
      ul li:first-child a {
         color: var(--main_color);
