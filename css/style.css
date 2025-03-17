@@ -11,69 +11,11 @@
             --font-family: "Roboto", sans-serif;
             --second-family: "Raleway", sans-serif; 
         } 
-        .logo-header{
-            color: var(--second_dark_color);
-        }
-        .logo-header span {
-            color: var(--main_color);
-        }
 
-        .logo-footer {
-            color: var(--light_color);
-        }
-
-
-     .logo-footer span {
-        color: var(--main_color);
-     } 
-
-     .logo-footer:hover {
-      color: red;
-      background-color: yellow;
-  }
-  .logo-header:hover {
-   color: red;
-   background-color: yellow;
-}
-
-.logo-footer:focus {
-   color: tomato;
-   background-color: royalblue;
-} 
-
-.logo-header:focus {
-   color: rgb(79, 34, 193);
-   background-color: rgb(20, 234, 123);
-}
-  
-       
-
-     ul li:first-child a {
-        color: var(--main_color);
+        body {
+         font-family: var(--font-family);
+         font-size: 14px;
+         letter-spacing: 0.03em;
+         font-weight: 700;
      }
-     ul li a {
-        color: var(--dark_color);
-     }
-     button {
-        background-color: var(--main_color);
-        color: var(--light_color);
-     }
-     h1{
-        color: var(--light_color);
-     }
-     main section:first-of-type {
-        background-color: var(--shadow_dark_color);
-     }
-     footer section:last-of-type {
-        background-color: var(--shadow_dark_color);
-     }
-     footer  p {
-        color: var(--light_color);
-
-     }
-     footer a {
-        color: var(--light_color);
-     }
-     footer li a {
-        color: var(--light_color);
-     }
+     
