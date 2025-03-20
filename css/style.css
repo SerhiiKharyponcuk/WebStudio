@@ -80,7 +80,7 @@ a {
    font-family: var(--font-family);
    font-weight: 900;
    font-size: 44px;
-   line-height: 1, 36;
+   line-height: 1.36;
    letter-spacing: 0.06em;
    text-transform: uppercase;
    text-align: left;
@@ -91,7 +91,7 @@ a {
    font-family: var(--font-family);
    font-weight: 700;
    font-size: 16px;
-   line-height: 1, 87;
+   line-height: 1.87;
    letter-spacing: 0.06em;
    text-align: left;
    color:var(--light_color);
@@ -111,7 +111,7 @@ a {
    font-family: var(--font-family);
    font-weight: 400;
    font-size: 14px;
-   line-height: 1, 71;
+   line-height: 1.71;
    letter-spacing: 0.03em;
    color: var(--second_light_color);
 }
@@ -154,7 +154,7 @@ a {
    font-family: var(--font-family);
    font-weight: 400;
    font-size: 14px;
-   line-height: 171%;
+   line-height: 1.71;
    letter-spacing: 0.03em;
    color:var(--light_color);
 }
@@ -163,7 +163,7 @@ a {
    font-family: var(--font-family);
    font-weight: 400;
    font-size: 14px;
-   line-height: 171%;
+   line-height: 1.71;
    letter-spacing: 0.03em;
    color: var(--second_light_color);
 }
@@ -188,7 +188,7 @@ li {
    font-family: var(--font-family);
    font-weight: 500;
    font-size: 16px;
-   line-height: 162%;
+   line-height: 1.62;
    letter-spacing: 0.03em;
    text-align: center;
    color: var(--dark_color);
@@ -201,7 +201,7 @@ li {
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 16px;
-line-height: 187%;
+line-height: 1.87;
 letter-spacing: 0.03em;
 color: var(--second_light_color);
 }
@@ -209,7 +209,7 @@ color: var(--second_light_color);
 font-family: var(--font-family);
 font-weight: 700;
 font-size: 18px;
-line-height: 200%;
+line-height: 2.0;
 letter-spacing: 0.06em;
 color: var(--dark_color);
 }
