@@ -16,6 +16,8 @@ body {
    font-size: 14px;
    letter-spacing: 0.03em;
    font-weight: 700;
+   line-height: 1.5;
+   color: var(--light_color);
 }
 
 
@@ -86,6 +88,9 @@ a {
    text-align: left;
    color:var(--light_color);
 }
+.team{
+   background-attachment:var(--shadw_light_color);
+}
 
 .hero-button {
    font-family: var(--font-family);
@@ -98,7 +103,7 @@ a {
    background-color: var(--main_color);
 }
 
-.feature-title {
+.features-title {
    font-family: var(--font-family);
    font-weight: 700;
    font-size: 14px;
@@ -107,7 +112,7 @@ a {
    color: var(--dark_color);
 }
 
-.feature-description {
+.features-list {
    font-family: var(--font-family);
    font-weight: 400;
    font-size: 14px;
@@ -115,14 +120,30 @@ a {
    letter-spacing: 0.03em;
    color: var(--second_light_color);
 }
+.wat-we-do-title{
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align:center;
+color: var(--dark_color);
+}
 
-.team-title {
+.team-title{
    font-family: var(--font-family);
    font-weight: 500;
    font-size: 16px;
    letter-spacing: 0.03em;
    text-align: left;
    color: var(--dark_color);
+}
+.team-hero-title{
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color:var(--dark_color);
 }
 
 .team-description {
