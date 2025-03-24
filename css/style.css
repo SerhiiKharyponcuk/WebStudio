@@ -52,10 +52,6 @@ body {
    color: var(--shadw_light_color);
 
 }
-.address-link{
-   color: var(--second_light_color);
-   }
-
 
 .header-logo:hover {
    color: var(--main_color);
