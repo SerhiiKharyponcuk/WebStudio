@@ -37,14 +37,6 @@ body {
    color: var(--main_color);
 }
 
-a {
-   text-decoration: none;
-   text-decoration-line: none;
-   text-decoration-thickness: initial;
-   text-decoration-style: initial;
-   text-decoration-color: initial;
-}
-
 .nav-list {
    font-family: var(--font-family);
    font-weight: 500;
@@ -201,9 +193,6 @@ color:var(--dark_color);
    color: var(--main_color);
 }
 
-li {
-   list-style-type: none;
-}
 
 .portfolio-button {
    font-family: var(--font-family);
