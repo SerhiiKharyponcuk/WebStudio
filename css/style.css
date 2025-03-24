@@ -190,9 +190,6 @@ body {
    color: var(--second_dark_color);
 }
 
-.footer-link {
-   color: var(--second_light_color);
-}
 
 .address-link {
    color: var(--dark_color);
