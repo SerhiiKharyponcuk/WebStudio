@@ -172,15 +172,6 @@ color:var(--dark_color);
    color:var(--light_color);
 }
 
-.footer-link {
-   font-family: var(--font-family);
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 1.71;
-   letter-spacing: 0.03em;
-   color: var(--second_light_color);
-}
-
 .footer {
    background-color: var(--shadow_dark_color);
 }
@@ -192,7 +183,17 @@ color:var(--dark_color);
 .footer-link:hover {
    color: var(--main_color);
 }
-
+.nav-link{
+   color: var(--second_dark_color);
+}
+.footer-link{
+color: var(--second_light_color);
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
 
 .portfolio-button {
    font-family: var(--font-family);
