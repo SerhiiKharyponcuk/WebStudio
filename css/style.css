@@ -201,7 +201,6 @@ color: var(--second_light_color);
 
 }
 .team-item{
-   border-radius: 0 0 4px 4px;
     width: 270px;
     height: 368px;
     background-color: var(--light_color);
