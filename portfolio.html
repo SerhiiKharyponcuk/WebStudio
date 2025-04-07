@@ -12,22 +12,28 @@
 </head>
 <body>
   <header class="header">
-    <nav class="nav">
-      <a class="header-logo" href="./index.html"><span class="logo-span">Web</span>Studio</a>
-      <ul class="nav-list">
-        <li class="nav-item"><a class="nav-link" href="./index.html">Студія</a></li>
-        <li class="nav-item"><a class="nav-link" href="./portfolio.html">Портфоліо</a></li>
-        <li class="nav-item"><a class=" nav-link" href="#">Контакти</a></li>
-      </ul>
-    </nav>
-    <ul class="address-list">
-      <li class="contact-item"><a class="address-link" href="malito:info@devstudio.com">info@devstudio.com</a></li>
-      <li class="contact-item"><a class="address-link" href="tel:+38-096-111-11-11">+38-096-111-11-11</a></li>
-    </ul>
+    <div class="container flex">
+      <nav class="nav">
+        <a href="#" class="header-logo"><span class="logo-span">Web</span>Studio</a>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="./index.html" class="nav-link">Студія</a></li>
+          <li class="nav-item"><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Контакти</a></li>
+        </ul>
+      </nav>
+      <!-- Обгортка для контактів -->
+      <div class="contacts">
+        <ul class="nav-list">
+          <li class="contact-item"><a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a></li>
+          <li class="contact-item"><a href="tel:+38-096-111-11-11" class="address-link">+38-096-111-11-11</a></li>
+        </ul>
+      </div>
+    </div>
   </header>
   <main class="main">
     <!-- <h1>Панель пошуку</h1> -->
     <section class="portfolio">
+      <div class="container">
       <ul class="portfolio-list">
         <li><button class="portfolio-button">Усі</button></li>
         <li><button class="portfolio-button">Веб-сайти</button></li>
@@ -94,9 +100,11 @@
             <h3 class="portfolio-title">Додаток</h3>
           </div>
       </ul>
+    </div>
     </section>
   </main>
   <footer class="footer">
+    <div class="container">
     <a class="footer-logo" href="./index.html"><span class="footer-span">Web</span>Studio</a>
     <address class="address">
       <ul class="address-list">
@@ -107,6 +115,7 @@
         <li class="contact-item"><a class="footer-link" href="tel:+38-096-111-11-11">+38-096-111-11-11</a></li>
       </ul>
     </address>
+  </div>
   </footer>
 </body>
 </html>
