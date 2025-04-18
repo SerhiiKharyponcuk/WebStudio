@@ -26,11 +26,11 @@ body {
    outline: 1px dashed tomato;
 }
 .nav-list,
-.nav,
+.nav,.nav-p,
 .features-list,
 .wat-we-do-list,
 .team-list,
-.flex {
+.flex,.container-p {
     display: flex;
     align-items: center;
     outline: 1px dashed red;
@@ -88,7 +88,7 @@ color: var(--second_light_color);
 .header-logo:hover {
    color: var(--main_color);
 }
-.nav{
+.nav,.nav-p{
    margin-right:  344px;;
 }
 
@@ -204,6 +204,9 @@ color: var(--second_light_color);
 
 
 .team-title {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
    font-family: var(--font-family);
    font-weight: 500;
    font-size: 16px;
@@ -223,6 +226,10 @@ color: var(--second_light_color);
 }
 
 .team-description {
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+   margin-bottom: 10px;
    font-family: var(--font-family);
    font-weight: 400;
    font-size: 16px;
@@ -238,7 +245,6 @@ color: var(--second_light_color);
 }
 
 .footer-logo {
-   margin-bottom: 20px;
    font-family: var(--second-family);
    font-weight: 700;
    font-size: 26px;
@@ -253,7 +259,7 @@ color: var(--second_light_color);
    letter-spacing: 0.03em;
    color: var(--main_color);
 }
-.footer-item{
+.footer-item:not(:last-child){
    margin-bottom: 10px;
 }
 
@@ -286,7 +292,15 @@ color: var(--second_light_color);
 .footer-link {
    color: var(--second_light_color);
 }
+.portfolio-button-list{
+  outline: 1px dashed red;
+  margin-top: 94px;
+  margin-bottom: 34px;
+
+
+}
 .portfolio-button {
+  
    font-family: var(--font-family);
    font-weight: 500;
    font-size: 16px;
@@ -294,8 +308,9 @@ color: var(--second_light_color);
    letter-spacing: 0.03em;
    text-align: center;
    color: var(--dark_color);
+   margin-right: 8px;
+   
 }
-
 .portfolio-button:hover {
    color: var(--light_color);
    background-color: var(--main_color);
@@ -317,4 +332,24 @@ color: var(--second_light_color);
    line-height: 2.0;
    letter-spacing: 0.06em;
    color: var(--dark_color);
+}
+
+  .portfolio-wrap {
+   display: flex;
+   flex-wrap: wrap;
+   outline: 1px solid black;
+   gap: 30px;
+}
+.portfolio-flex {
+   display: flex;
+   justify-content: center;
+}
+.portfolio-item{
+   width: 370px;
+   height: 404px;
+   border: 1px solid #eee;
+   outline: 1px dotted orange;
+}
+.portfolio-box{
+   padding: 24px;
 }
