@@ -27,14 +27,17 @@ body {
 }
 .nav-list,
 .nav,.nav-p,
-.features-list,
 .wat-we-do-list,
 .team-list,
-.flex,.container-p {
+.flex,.container-p,.footer-logo {
     display: flex;
     align-items: center;
     outline: 1px dashed red;
  
+}
+.features-list{
+   display: flex;
+   justify-content: center;
 }
 
 .header {
@@ -245,6 +248,7 @@ color: var(--second_light_color);
 }
 
 .footer-logo {
+   margin-bottom: 20px;
    font-family: var(--second-family);
    font-weight: 700;
    font-size: 26px;
@@ -264,7 +268,7 @@ color: var(--second_light_color);
 }
 
 
-.address-discription {
+.address-description {
    margin-bottom: 10px;
    font-family: var(--font-family);
    font-weight: 400;
