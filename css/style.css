@@ -372,5 +372,13 @@ color: var(--second_light_color);
    outline: 1px dotted orange;
 }
 .portfolio-box{
+   /* ! */
+   /* display: flex;
+   flex-direction: column;
+   justify-content: flex-end; */
+   /* ! */
+   flex-grow: 1;
    padding: 24px;
+   outline: 1px dotted blue;
 }
+
