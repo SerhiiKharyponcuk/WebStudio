@@ -178,7 +178,43 @@ color: var(--second_light_color);
    line-height: 1.71;
    letter-spacing: 0.03em;
    color: var(--second_light_color);
+   outline: 1px dotted red;
 }
+.item1::before{
+   width: 100px;
+   height: 100px;
+   display: flex;
+   flex-direction: column;
+   content: "";
+   background-color: red;
+   background-image: ;
+}
+.item2::before{
+   width: 100px;
+   height: 100px;
+   display: flex;
+   flex-direction: column;
+   content: "";
+   background-color: red;
+   background-image: ;
+}.item3::before{
+   width: 100px;
+   height: 100px;
+   display: flex;
+   flex-direction: column;
+   content: "";
+   background-color: red;
+   background-image: ;
+}.item4::before{
+   width: 100px;
+   height: 100px;
+   display: flex;
+   flex-direction: column;
+   content: "";
+   background-color: red;
+   background-image: ;
+}
+
 
 .wat-we-do {
    padding-top: 94px;
@@ -368,7 +404,7 @@ color: var(--second_light_color);
 .portfolio-item{
    border: 1px solid #eee;
    outline: 1px dotted orange;
-   flex-basis: 370px;
+   flex-basis: calc((100% - 60px) / 3);
 }
 .item-link{
    display: flex;
