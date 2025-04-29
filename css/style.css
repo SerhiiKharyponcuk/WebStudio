@@ -179,40 +179,63 @@ color: var(--second_light_color);
    letter-spacing: 0.03em;
    color: var(--second_light_color);
    outline: 1px dotted red;
+   gap: 30px;
+
+}
+.features-item{
+   display: flex;
+   flex-direction: column;
+   outline: 1px solid #003366;
+   
 }
 .item1::before{
-   width: 100px;
-   height: 100px;
-   display: flex;
-   flex-direction: column;
-   content: "";
-   background-color: red;
-   background-image: ;
+   width: 270px;
+   height: 120px;
+   content: '';
+   border-radius: 4px;
+   background-color: var(--shadw_light_color);
+   background-image: url("../images/antenna\ 1.svg");
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-bottom: 30px;
+   outline: 1px dashed #006400;
+   
 }
 .item2::before{
-   width: 100px;
-   height: 100px;
-   display: flex;
-   flex-direction: column;
-   content: "";
-   background-color: red;
-   background-image: ;
-}.item3::before{
-   width: 100px;
-   height: 100px;
-   display: flex;
-   flex-direction: column;
-   content: "";
-   background-color: red;
-   background-image: ;
-}.item4::before{
-   width: 100px;
-   height: 100px;
-   display: flex;
-   flex-direction: column;
-   content: "";
-   background-color: red;
-   background-image: ;
+   width: 270px;
+   height: 120px;
+   content: '';
+   border-radius: 4px;
+   background-color: var(--shadw_light_color);
+   background-image: url("../images/clock\ 1.svg") ;
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-bottom: 30px;
+   outline: 1px dashed #006400;
+}
+.item3::before{
+   width: 270px;
+   height: 120px;
+   content: '';
+   border-radius: 4px;
+   background-color: var(--shadw_light_color);
+   background-image:url("../images/diagram\ 1.svg");
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-bottom: 30px;
+   outline: 1px dashed #006400;
+}
+.item4::before{
+   width: 270px;
+   height: 120px;
+   content: '';
+   border-radius: 4px;
+   background-color: var(--shadw_light_color);
+   background-image:url("../images/astronaut\ 1.svg") ;
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-bottom: 30px;
+   outline: 1px dashed #006400;
 }
 
 
