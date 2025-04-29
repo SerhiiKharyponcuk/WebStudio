@@ -366,10 +366,13 @@ color: var(--second_light_color);
    justify-content: center;
 }
 .portfolio-item{
-   width: 370px;
-   height: 404px;
    border: 1px solid #eee;
    outline: 1px dotted orange;
+   flex-basis: 370px;
+}
+.item-link{
+   display: flex;
+   flex-direction: column;
 }
 .portfolio-box{
    /* ! */
@@ -381,4 +384,5 @@ color: var(--second_light_color);
    padding: 24px;
    outline: 1px dotted blue;
 }
+
 
