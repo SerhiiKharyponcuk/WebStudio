@@ -23,7 +23,6 @@ body {
    margin: 0 auto;
    padding: 0 15px;
    /* border: 5px solid tomato; */
-   outline: 1px dashed tomato;
 }
 .nav-list,
 .nav,.nav-p,
@@ -33,7 +32,6 @@ body {
 .footer-logo  {
     display: flex;
     align-items: center;
-    outline: 1px dashed red;
  
 }
 .features-list{
@@ -44,6 +42,7 @@ body {
 .header {
    padding-top: 24px;
    padding-bottom: 25px;
+   border-bottom: 1px solid var(--second_light_color);
 }
 
 
@@ -99,6 +98,21 @@ color: var(--second_light_color);
 .nav-link:hover {
    color: var(--main_color);
 }
+.nav-item:after{
+   display: flex;
+   display: none;
+   width: 16px;
+   height: 16px;
+   content: "";
+   background-image: url(../images/Group.svg);
+   background-repeat: no-repeat;
+
+}
+.nav-item:hover:after{
+   display: block;
+
+}
+
 .nav-item:not(:last-child) {
    margin-right: 50px;
  }
@@ -115,7 +129,11 @@ color: var(--second_light_color);
 .hero {
    padding-top: 200px;
    padding-bottom: 200px;
-   background-color: var(--shadow_dark_color)
+   flex-basis: 1600px;
+   background-color: var(--shadow_dark_color);
+   background-image: url("../images/background.jpg"); 
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 .hero-title {
@@ -178,7 +196,6 @@ color: var(--second_light_color);
    line-height: 1.71;
    letter-spacing: 0.03em;
    color: var(--second_light_color);
-   outline: 1px dotted red;
    gap: 30px;
 
 }
@@ -369,7 +386,6 @@ color: var(--second_light_color);
 }
 
 .portfolio-button-list{
-  outline: 1px dashed red;
   margin-top: 94px;
   margin-bottom: 34px;
 
@@ -417,7 +433,6 @@ color: var(--second_light_color);
   .portfolio-wrap {
    display: flex;
    flex-wrap: wrap;
-   outline: 1px solid black;
    gap: 30px;
 }
 .portfolio-flex {
@@ -426,7 +441,6 @@ color: var(--second_light_color);
 }
 .portfolio-item{
    border: 1px solid #eee;
-   outline: 1px dotted orange;
    flex-basis: calc((100% - 60px) / 3);
 }
 .item-link{
@@ -441,7 +455,7 @@ color: var(--second_light_color);
    /* ! */
    flex-grow: 1;
    padding: 24px;
-   outline: 1px dotted blue;
+   outline: 1px dotted var(--second_light_color)
 }
 
 
