@@ -45,7 +45,7 @@ body {
 .header {
    padding-top: 24px;
    padding-bottom: 25px;
-   box-shadow: 0 2px var(--shadow) ;
+   border-bottom: 1px solid var(--second_light_color);
 }
 
 
