@@ -166,6 +166,7 @@ color: var(--second_light_color);
    text-align: left;
    color: var(--light_color);
    background-color: var(--main_color);
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .features {
