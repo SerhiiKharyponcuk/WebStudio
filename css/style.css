@@ -32,7 +32,8 @@ body {
 .team-list,
 .flex,.container-p,
 .footer-logo,
-.hero-title  {
+.hero-title
+  {
     display: flex;
     align-items: center;
  
@@ -46,6 +47,10 @@ body {
    padding-top: 24px;
    padding-bottom: 25px;
    border-bottom: 1px solid var(--second_light_color);
+}
+.main{
+  display:flex ;
+  flex-direction: column;
 }
 
 
@@ -91,6 +96,7 @@ color: var(--second_light_color);
 }
 
 
+
 .header-logo:hover {
    color: var(--main_color);
 }
@@ -116,16 +122,16 @@ color: var(--second_light_color);
  }
  
 .hero {
+   height: 600px;
    padding-top: 200px;
    padding-bottom: 200px;
-   flex-basis: 1600px;
    background-color: var(--shadow_dark_color);
    background-image:
    linear-gradient(var(--shadow-background)),
    url("../images/background.jpg");
-   background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
+
 }
 
 .hero-title {
@@ -207,18 +213,18 @@ color: var(--second_light_color);
 }
 
 .features-item:nth-child(1):before{
-   background-image: url(../images/antenna1.svg);
+   background-image: url(../svg/antenna1.svg);
    
 }
 .features-item:nth-child(2):before{
-   background-image: url(../images/clock1.svg) ;
+   background-image: url(../svg/clock1.svg) ;
   
 }
 .features-item:nth-child(3):before{
-   background-image:url(../images/diagram1.svg);
+   background-image:url(../svg/diagram1.svg);
 }
 .features-item:nth-child(4):before{
-   background-image:url(../images/astronaut1.svg) ;
+   background-image:url(../svg/astronaut1.svg) ;
 }
 
 
