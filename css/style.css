@@ -88,20 +88,24 @@ body {
 
 }
 .address-link {
-font-family: var(--font-family);
-font-weight: 500;
-font-size: 14px;
-letter-spacing: 0.02em;
-color: var(--second_light_color);
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   color: var(--second_light_color);
+   font-weight: 500;
+   letter-spacing: 0.02em;
+   fill:var(--second_light_color);
 }
-
+.address-link:hover {
+   fill: var(--main_color);
+}
 
 
 .header-logo:hover {
    color: var(--main_color);
 }
 .nav,.nav-p{
-   margin-right:  310px;;
+   margin-right:  290px;;
 }
 
 .nav-link:hover {
@@ -258,7 +262,7 @@ color: var(--second_light_color);
 }
 .team-item{
     width: 270px;
-    height: 368px;
+    /* height: 368px; */
     background-color: var(--light_color);
     border-radius: 0 0 4px 4px;
     box-shadow: 0 4px 4px 0 var(--shadow);
@@ -298,6 +302,59 @@ color: var(--second_light_color);
    letter-spacing: 0.03em;
    text-align: left;
    color: var(--second_light_color);
+}
+.social-list{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   margin-bottom: 30px;
+}
+.social-link{
+    width: 44px;
+    height: 44px;
+    border-radius: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8;
+}
+.social-link:hover{
+   background-color: var(--main_color);
+   fill: var(--light_color);
+}
+
+.company{
+   padding-top: 94px;
+   padding-bottom: 94px;
+
+}
+.title {
+   padding-bottom: 50px;
+   font-family: var(--font-family);
+   font-weight: 700;
+   font-size: 36px;
+   letter-spacing: 0.03em;
+   text-align: center;
+   color: var(--dark_color);
+}
+.company-link{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8;
+}
+.company-link:hover{
+   border: 1px solid var(--main_color);
+   fill: var(--main_color);
+}
+.company-list{
+   display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .footer {
@@ -355,6 +412,40 @@ color: var(--second_light_color);
 .footer-link {
    color: var(--second_light_color);
 }
+.address-list{
+   margin-right: 70px;
+}
+.footer-box{
+   display: flex;
+   align-items: baseline;
+}
+.joing-title{
+   font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--light_color);
+   margin-bottom: 20px;
+}
+.joing-list{
+   display: flex;
+   gap: 10px;
+}
+.joing-link{
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill:var(--light_color) ;
+}
+.joing-link:hover{
+   background-color: var(--main_color);
+}
+
 .portfolio{
    margin-bottom: 94px;
 }
