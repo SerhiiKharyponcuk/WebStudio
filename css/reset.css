@@ -35,3 +35,18 @@ address{
     text-decoration: none;
     font-style: normal;
 }
+.button{
+border: none;
+}
+.border ,
+.border:focus ,
+.border:hover{
+    border: none;
+    outline: none;
+}
+input[type="checkbox"]:checked {
+  accent-color: #2196F3;
+}
+textarea{
+    outline: none;
+}

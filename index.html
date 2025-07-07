@@ -55,7 +55,58 @@
     <section class="hero">
       <div class="container flex-hero">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="hero-button">Замовити послугу</button>
+        <div class="modal-html">
+          <button class="btn-open" data-modal-open>Замовити послугу</button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="btn" data-modal-close>
+                <svg width="11px" height="11px">
+                  <use href="./svg/symbol-defs.svg#X"></use>
+                </svg>
+              </button>
+              <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
+              <form class="modal-form">
+                <label class="modal-label">
+                  <p>Ім'я*</p>
+                  <div class="modal-input">
+                    <svg width="12px" height="12px">
+                      <use href="./svg/symbol-defs.svg#icon-user"></use>
+                    </svg>
+                    <input class="border" type="text" name="name" required="">
+                  </div>
+                </label>
+                <label class="modal-label">
+                  <P>Телефон*</P>
+                  <div class="modal-input">
+                    <svg width="14px" height="14px">
+                      <use href="./svg/symbol-defs.svg#icon-phone"></use>
+                    </svg>
+                    <input class="border" type="tel" name="tel" required="">
+                  </div>
+                </label>
+                <label class="modal-label">
+                  <p>Пошта*</p>
+                  <div class="modal-input">
+                    <svg width="16px" height="12px">
+                      <use href="./svg/symbol-defs.svg#icon-mail"></use>
+                    </svg>
+                    <input class="border" type="email" name="email" required="">
+                  </div>
+                </label>
+                <label class="modal-label ">
+                  <p>Коментар</p>
+                  <textarea class="modal-comment" name="comment" placeholder="Введіть текст"></textarea>
+                </label>
+                <label class="modal-label-ym">
+                  <input type="checkbox" name="checkbox" required="">
+                  Погоджуюся з розсилкою та приймаю
+                  <a href="#" class="modal-link"> Умови договору</a>
+                </label>
+                <button class="modal-button" type="submit">Відправити</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section class="features">
@@ -100,16 +151,16 @@
         <ul class="wat-we-do-list">
           <li class="wat-we-do-item"><img class="wat-we-do-img" src="./images/web-design.jpg" alt="Веб-дизайн"
               width="370" height="294">
-              <h3 class="item-title">Десктопні додатки</h3>
-            </li>
+            <h3 class="item-title">Десктопні додатки</h3>
+          </li>
           <li class="wat-we-do-item"><img class="wat-we-do-img" src="./images/development.jpg" alt="Розробка"
               width="370" height="294">
-              <h3 class="item-title">Мобільні додатки</h3>
-            </li>
+            <h3 class="item-title">Мобільні додатки</h3>
+          </li>
           <li class="wat-we-do-item"><img class="wat-we-do-img" src="./images/branding.jpg" alt="Брендинг" width="370"
               height="294">
-              <h3 class="item-title">Дизайнерські рішення</h3>
-            </li>
+            <h3 class="item-title">Дизайнерські рішення</h3>
+          </li>
         </ul>
       </div>
     </section>
@@ -364,10 +415,24 @@
               </li>
             </ul>
           </div>
+          <div class="form-box">
+            <h3 class="form-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
+            <form class="footer-form">
+              <input name="footer-email" class="footer-input" type="email" placeholder="E-mail">
+              <button class="footer-button" type="submit">
+                Підписатися
+                <svg width="24px" height="24px">
+                  <use href="./svg/symbol-defs.svg#telegramsend"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </section>
   </footer>
+  <!--! Скрипт модалки -->
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
