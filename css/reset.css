@@ -75,3 +75,6 @@ input:-webkit-autofill {
 .modal-input:has(input:invalid:focus) {
   border-color: red;
 }
+.border{
+  width: 100%;
+}
