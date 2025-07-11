@@ -305,7 +305,9 @@ border: none;
 .modal-text{
    margin-bottom: 12px;
 }
-
+.title-span{
+   color: red;
+}
 .modal-label-ym{
     display: flex;
     justify-content: center;
