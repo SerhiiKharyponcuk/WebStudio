@@ -50,10 +50,18 @@ input[type="checkbox"]:checked {
 textarea{
     outline: none;
 }
-input, textarea {
+.modal-input, textarea {
   background-color: white !important; /* ваш фон */
   box-shadow: none !important;
 }
+.footer-input {
+  outline: none;
+
+}
+.footer-input:focus {
+background: rgba(33, 150, 243, 0);
+}
+
 
 input::selection {
   background: transparent;
