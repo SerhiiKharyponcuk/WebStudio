@@ -209,6 +209,11 @@ body {
    background-position: center;
 
 }
+.hero-flip{
+   transition-property: transform;
+   transition-delay: 1000ms;
+   transition-duration: 500ms;
+}
 
 .hero-title {
    width: 690px;
@@ -493,17 +498,18 @@ background: rgba(47, 48, 58, 0.8);
    padding-bottom: 94px;
    background-color: #F5F4FA;
 }
-.team-item:not(:last-child){
+.flip:not(:last-child){
    margin-right: 30px;
 
 }
 .team-item{
     width: 270px;
-    /* height: 368px; */
+    height: 428px;
     background-color: var(--light_color);
     border-radius: 0 0 4px 4px;
     box-shadow: 0 4px 4px 0 var(--shadow);
 }
+
 
 
 .team-title {
