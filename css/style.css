@@ -109,6 +109,7 @@ body {
 }
 
 .s::after{
+    display: flex;
     content: "";
     position: absolute;
     bottom: -32px;
@@ -117,7 +118,26 @@ body {
     height: 4px;
     border-radius: 2px;
     background-color: var(--main_color);
+    animation: underline-grow 500ms ease forwards;
+
 }
+
+
+
+@keyframes underline-grow {
+
+  0% {
+
+    width: 0%;
+  } 
+
+  100% {
+
+    width: 100%;
+
+  }
+}
+
 
 
 .address-list {
@@ -170,15 +190,19 @@ body {
  }
  
 .hero {
-   height: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 700px;
+   margin-top: 80px;
    padding-top: 200px;
    padding-bottom: 200px;
    background-color: var(--shadow_dark_color);
    background-image:
    linear-gradient(var(--shadow-background)),
    url("../images/background.jpg");
-   background-size: cover;
    background-position: center;
+   background-size: cover;
 
 }
 .hero-flip{
@@ -227,8 +251,11 @@ body {
    background-color: var(--main_color);
    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
    animation: pulse 1.5s infinite;
+   animation-delay: 1500ms;
 }
-
+.btn-open:hover{
+animation-play-state: paused;
+}
 
 @keyframes pulse {
   0% {
@@ -496,6 +523,7 @@ background: rgba(47, 48, 58, 0.8);
 }
 
 .team {
+   width: 100%;
    padding-top: 94px;
    padding-bottom: 94px;
    background-color: #F5F4FA;
@@ -612,6 +640,7 @@ background: rgba(47, 48, 58, 0.8);
    padding-top: 60px;
    padding-bottom: 60px;
    background-color: var(--shadow_dark_color);
+   z-index: 1;
 }
 
 .footer-logo {
